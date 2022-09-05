@@ -2,8 +2,9 @@
 *used in range query + sum
 *in subsequence you can sort then sum or vice versa 
 *used in update range problems to check if a number found in a range
-*it's not include prefixsum only,there are prefix xor and others also
+*it's not include prefixsum only,there are prefix xor,prefix multiplication and others also
 -Example for xor prefix:https://leetcode.com/problems/maximum-xor-for-each-query
+-Examole for prefix multiplication: https://leetcode.com/problems/product-of-array-except-self/submissions/
 *Sum of Absolute Differences in a Sorted Array:https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array---->PROBLEMMMMMMMM
 in 2D array to do prefix:
 first you should do prefix for rows (r+1)+=(r)
