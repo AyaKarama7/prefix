@@ -2,6 +2,7 @@
 *used in range query + sum
 *in subsequence you can sort then sum or vice versa 
 *used in update range problems to check if a number found in a range
+*it's not include prefixsum only,there are prefix xor and others also
 in 2D array to do prefix:
 first you should do prefix for rows (r+1)+=(r)
 second for columns (c+1)+=c
