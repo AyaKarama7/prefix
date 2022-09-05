@@ -1,6 +1,7 @@
 # prefix
 *used in range query + sum
 *in subsequence you can sort then sum or vice versa 
+*used in update range problems to check if a number found in a range
 in 2D array to do prefix:
 first you should do prefix for rows (r+1)+=(r)
 second for columns (c+1)+=c
@@ -15,3 +16,4 @@ for(int i=0;i<1005;i++)//prefix for rows (r+1)+r
             for(int j=0;j<1005;j++)
             a[i][j+1]+=a[i][j];
         }
+        //D-b-c+a
